@@ -1,31 +1,31 @@
 ### `npm Global install:`
 npm install npm -g
 
-#### `Python virtual environment setup:`
-##### `Windows 10:`
-###### `check if pip is already installed`
+#### __`Python virtual environment setup:`__
+##### __`Windows 10:`__
+###### __`check if pip is already installed`__
 py -m pip --version
-###### `if pip is already installed upgrade pip, if not install`
+###### __`if pip is already installed upgrade pip, if not install`__
 py -m pip install --upgrade pip
-###### `install virtual environment using pip`
+###### __`install virtual environment using pip`__
 py -m pip install virtualenv
 
-###### `create virtual environment`
+###### __`create virtual environment`__
 py -m venv ``virtual env name``\
 Or \
 mkvirtualenv ``virtual env name``
 
-###### `to activate virtual env:`
+###### __`to activate virtual env:`__
 .\env\Scripts\activate
 
-###### `to deactivate virtual env`
+###### __`to deactivate virtual env`__
 deactivate
 
-###### `to reactivate virtual env`
+###### __`to reactivate virtual env`__
 workon ``virtual env name``
 
 ##### Ubuntu:
-###### `check if pip is already installed`
+###### __`check if pip is already installed`__
 python3 -m pip --version
 ###### `if pip is already installed upgrade pip, if not install`
 python3 -m pip install --upgrade pip
