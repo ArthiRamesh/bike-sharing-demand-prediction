@@ -1,7 +1,7 @@
-# npm Global install:
+## 'npm Global install:'
 npm install npm -g
 
-Python virtual environment setup:
+### Python virtual environment setup:
 Windows 10:
 ## check if pip is already installed
 py -m pip --version
