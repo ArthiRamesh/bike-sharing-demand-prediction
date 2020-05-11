@@ -11,9 +11,9 @@ py -m pip install --upgrade pip
 py -m pip install virtualenv
 
 ###### `create virtual environment`
-py -m venv ```virtual env name```
+py -m venv ``virtual env name``\
 Or \
-mkvirtualenv ```virtual env name```
+mkvirtualenv ``virtual env name``
 
 ###### `to activate virtual env:`
 .\env\Scripts\activate
@@ -22,7 +22,7 @@ mkvirtualenv ```virtual env name```
 deactivate
 
 ###### `to reactivate virtual env`
-workon ```virtual env name```
+workon ``virtual env name``
 
 ##### Ubuntu:
 ###### `check if pip is already installed`
@@ -33,9 +33,9 @@ python3 -m pip install --upgrade pip
 python3 -m pip install virtualenv
 
 ###### `create virtual environment`
-python3 -m venv ```virtual env name```
+python3 -m venv ``virtual env name``\
 Or \
-mkvirtualenv ```virtual env name```
+mkvirtualenv ``virtual env name``
 
 ###### `to activate virtual env:`
 source env/bin/activate
@@ -44,7 +44,7 @@ source env/bin/activate
 deactivate
 
 ###### `to reactivate virtual env`
-workon ```virtual env name```
+workon ``virtual env name``
 
 
 #### `Installing required libraries in virtualenv`
