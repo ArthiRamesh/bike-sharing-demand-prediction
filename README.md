@@ -1,4 +1,4 @@
-## npm Global install:
+# npm Global install:
 npm install npm -g
 
 Python virtual environment setup:
