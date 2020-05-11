@@ -11,9 +11,9 @@ py -m pip install --upgrade pip
 py -m pip install virtualenv
 
 ###### `create virtual environment`
-py -m venv <virtual env name>
+py -m venv > virtual env name 
 Or 
-mkvirtualenv <virtual env name>
+mkvirtualenv > virtual env name
 
 ###### `to activate virtual env:`
 .\env\Scripts\activate
@@ -22,7 +22,7 @@ mkvirtualenv <virtual env name>
 deactivate
 
 ###### `to reactivate virtual env`
-workon <virtual env name>
+workon > virtual env name
 
 ##### Ubuntu:
 ###### `check if pip is already installed`
@@ -51,15 +51,15 @@ workon <virtual env name>
 pip install python-dotenv\
 pip install virtualenvwrapper\
 pip install flask\
-pip install numpy
-pip install datetime
-pip install pickle-mixin
-pip install sklearn
-pip install pandas
-pip install tensorflow
-pip install xgboost
-pip install -q git+https://github.com/tensorflow/docs
-pip install matplotlib
+pip install numpy\
+pip install datetime\
+pip install pickle-mixin\
+pip install sklearn\
+pip install pandas\
+pip install tensorflow\
+pip install xgboost\
+pip install -q git+https://github.com/tensorflow/docs\
+pip install matplotlib\
 
 #### `To start flask server`
 ##### `Windows 10`
