@@ -48,9 +48,9 @@ workon <virtual env name>
 
 
 #### `Installing required libraries in virtualenv`
-pip install python-dotenv
-pip install virtualenvwrapper
-pip install flask
+pip install python-dotenv\
+pip install virtualenvwrapper\
+pip install flask\
 pip install numpy
 pip install datetime
 pip install pickle-mixin
